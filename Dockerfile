@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Nicolas LAURENT <docker@aegypius.com>
 
-ENV PORTAGE_VERSION 2.3.0
+ENV PORTAGE_VERSION 2.2.28
 
 ADD http://gentoo.mirrors.ovh.net/gentoo-distfiles//distfiles/portage-${PORTAGE_VERSION}.tar.bz2 /tmp/portage.tar.bz2
 ADD http://gentoo.mirrors.ovh.net/gentoo-distfiles//snapshots/portage-latest.tar.xz /tmp/portage-latest.tar.xz

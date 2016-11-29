@@ -16,4 +16,4 @@ It's used on [aegypius](https://github.com/aegypius/overlay) overlay to run test
 
 You can found more information by running
 
-    docker run -it repoman --help
+    docker run -it aegypius/repoman repoman --help
