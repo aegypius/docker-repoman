@@ -6,7 +6,7 @@ ADD http://distfiles.gentoo.org/snapshots/portage-latest.tar.bz2 /portage-latest
 RUN set -x \
   && tar -jxf /portage-latest.tar.bz2 -C /usr \
   && emerge -1 app-portage/repoman dev-vcs/git \
-	&& rm -fr /portage-latest.tar.bz2 /usr/portage /var/tmp/portage
+  && rm -fr /portage-latest.tar.bz2 /var/tmp/portage
 
 WORKDIR /overlay
 
