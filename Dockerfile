@@ -10,4 +10,6 @@ RUN set -x \
 
 WORKDIR /overlay
 
-CMD ["repoman", "full"]
+ENTRYPOINT ["repoman"]
+
+CMD ["full"]
